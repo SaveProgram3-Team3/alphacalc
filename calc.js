@@ -1,8 +1,8 @@
-var Calc (function () {
+var Calc = (function () {
     /*
-        Add two numbers.
+        Sum two numbers.
     */
-    function add(num1, num2)
+    function sum(num1, num2)
     {
     }
 
@@ -14,7 +14,7 @@ var Calc (function () {
 	}
 
 	return {
-		add: add,
+		sum: sum,
 		sub: sub
 	};
 })();
