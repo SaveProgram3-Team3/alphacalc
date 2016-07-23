@@ -4,6 +4,7 @@ var Calc = (function () {
     */
     function sum(num1, num2)
     {
+		return num1 + num2;
     }
 
     /*
@@ -11,6 +12,7 @@ var Calc = (function () {
     */
 	function sub(num1, num2)
 	{
+		return num1 - num2;
 	}
 
 	return {
