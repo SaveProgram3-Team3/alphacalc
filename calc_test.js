@@ -11,7 +11,7 @@ suite('Calcuator', function() {
 	document.body.appendChild(js);
   });
 
-  suite('#add()', function() {
+  suite('#sum()', function() {
     test('should return 5 when sum 3 and 2', function() {
       assert.equal(5, Calc.sum(3, 2));
     });
