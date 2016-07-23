@@ -22,4 +22,17 @@ suite('Calcuator', function() {
       assert.equal(5, Calc.sub(3, 2));
     });
   });
+
+  suite('#mlt()', function() {
+    test('should return 6 when mlt 3 and 2', function() {
+      assert.equal(6, Calc.mlt(3, 2));
+    });
+  });
+
+  suite('#div()', function() {
+    test('should return 2 when sub 4 and 2', function() {
+      assert.equal(2, Calc.sub(4, 2));
+    });
+  });
+
 });
