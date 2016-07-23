@@ -1,4 +1,4 @@
-var Calc (function () {
+var Calc = (function () {
     /*
         Add two numbers.
     */
